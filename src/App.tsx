@@ -6,7 +6,7 @@ import MenuScreen from './Screens/MenuScreen';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-     <MenuScreen />
+     <MenuScreen left/>
     </ThemeProvider>
   );
 }
